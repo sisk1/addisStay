@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .input {
+    @apply rounded-md border border-gray-300 bg-transparent px-4 py-2 outline-none transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-800 dark:border-gray-500;
+  } */
+}
+
+@layer base {
+  strong {
+    @apply font-medium;
+  }
+}
