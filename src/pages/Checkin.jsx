@@ -1,4 +1,4 @@
-import CheckinBooking from "../features/checkin-checkout/checkinBooking";
+import CheckinBooking from "../features/checkin-checkout/CheckinBooking";
 
 function Checkin() {
   return <CheckinBooking />;
