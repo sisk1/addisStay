@@ -16,7 +16,7 @@ function ConfirmDelete({
 
   return (
     <div className="flex flex-col gap-5">
-      <Heading as="h3">Delete Accom</Heading>
+      <Heading as="h3">Delete {resourceName}</Heading>
       <p className="leading-loose">
         Are you sure do you want to delete this {resourceName} <br />{" "}
         permanently? This action cannot be undone
